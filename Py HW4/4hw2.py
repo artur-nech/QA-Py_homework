@@ -5,14 +5,14 @@
 #
 class car:
     def __init__(*arg):
-    pass
+        
 
 class bus(car):
     def __init__(*arg):
     pass
 
 class sedan(car):
-    def __init__(*args):
+    def __init__(*arg):
     pass
 
 ford = sedan('pirelly', 'fordSpeed', 210)

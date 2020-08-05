@@ -138,7 +138,7 @@ class Car:
         self.model = model
         self.speed = speed
 
-    def getAll(self):
+    def getall(self):
         self.__protected()
 
     def __protected(self):
@@ -152,8 +152,8 @@ class Motorcycle(Car):
         Car.__init__(self, wheels, model, speed)
         self.engine = engine
 
-    def getAll(self):
-        super().getAll()
+    def getall(self):
+        super().getall()
         print("Его двигатель:", self.engine)
 
     def change(self, engine):
@@ -165,9 +165,9 @@ shkoda = Car(4, "Shkoda", 125.45)
 shkoda.getAll()
 
 audi = Car(4, "Audi", 250.9)
-audi.getAll()
+audi.getall()
 
 print("**********************")  # Просто пропуск строки
 
 harley = Motorcycle(2, "Harley Davidson", 200, "Powerfull")
-harley.getAll()
+harley.getall()

@@ -6,7 +6,7 @@ This is only applicable to the natural numbers.
  */
 function digital_root(n) {
     var n;
-    toString(n);
+    toString ( n );
     while (eval(n) >= 10) {
         console.log(n);
         (n = eval(n));
@@ -14,3 +14,4 @@ function digital_root(n) {
     }
     return n;
 }
+digital_root(16);

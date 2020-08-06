@@ -32,4 +32,4 @@ driver.find_element(By.CLASS_NAME, "pushbutton-wide")
 assert "Submit" in driver.page_source
 
 
-driver.quit();
+driver.quit()

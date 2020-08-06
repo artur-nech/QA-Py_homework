@@ -5,5 +5,6 @@ arr = [ "a,b,c", "d", "e" ];
 // ["a", "b", "c", "d", "e"]
  */
 var arr = [ "a,b,c", "d", "e" ];
-var myArray = arr.split(',');
-arr = myArray.join(',');
+/*arr.split(',');*/
+arr.toString();
+console.log (arr.join(','));

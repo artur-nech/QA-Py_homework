@@ -43,7 +43,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import TimeoutException
 
 
-# import HtmlTestRunner
+import HtmlTestRunner
 
 # Unit test for Chrome browser
 class ChromeTest(unittest.TestCase):
@@ -287,3 +287,5 @@ class FireFoxTest(unittest.TestCase):
 
     def tearDown(self):
         self.driver.quit()
+
+    if __name__ == "__main__": unittest.main()

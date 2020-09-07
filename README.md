@@ -1,4 +1,4 @@
-<h2># QA-homework
+<h2># QA automation enginering
 
 Python homework is speedy as possible
 </h2>
